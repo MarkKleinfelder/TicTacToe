@@ -21,7 +21,7 @@ $('.box').click(function(){
 })
 
 /*-------------vvvv-----constructors--------vvvv-----------------*/
-
+/**/
 /*gameboard = {
 	bgcolor: 
 	Xmarker:
