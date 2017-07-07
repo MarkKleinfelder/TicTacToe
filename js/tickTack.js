@@ -6,10 +6,6 @@ $('table').click(function(event){
 	console.log(event);
 });
 
-$('table').click(function(){
-	$("h2").toggle();
-})
-	
 
 var count = 0;
 
@@ -20,7 +16,18 @@ $('.box').click(function(){
 	}else{
 		$(this).text("O").css("background-color", "lightgreen");
 	}
+	$("h2").toggle();
+	$(this).css("pointer-events", "none");
 })
+
+/*-------------vvvv-----constructors--------vvvv-----------------*/
+
+/*gameboard = {
+	bgcolor: 
+	Xmarker:
+	Omarker:
+}*/
+
 
 
 
