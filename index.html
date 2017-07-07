@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+</head>
+<body>
+  <div class="animate">
+   <h1>Tic Tac Toe!</h1>
+  </div>
+ 
+  <h2 class="startX">It's X's Turn</h2>
+  <h2 class="startHide">It's O's Turn</h2>
+
+  <div id="buttonLine">
+    <button id="reset" class="resetBtn">RESET</button>
+  </div>
+  <table>
+    
+    <tr class="row1">
+	  <td id="box1" class="left box"></td>    	
+	  <td id="box2" class="center box"></td>
+	  <td id="box3" class="right box"></td>    	
+    </tr>
+    
+    <tr class="row2">
+      <td id="box4" class="left box"></td>    	
+	  <td id="box5" class="center box"></td>
+	  <td id="box6" class="right box"></td> 
+	  </tr>
+    
+    <tr class="row3">
+      <td id="box7" class="left box"></td>    	
+	  <td id="box8" class="center box"></td>
+	  <td id="box9" class="right box"></td> 
+    </tr>
+
+  </table>
+
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+<script src="js/tickTack.js"></script>
+</body>
+</html>
+
+
+<!--create board 3x3 using 'table'
+divide table into 3x3
+assign id to each division
+make divisions clickable 
+
+create toggle for each division
+default divisions to hide x or o markers
+toggle x or o on click
+
+calculate win;
+wins sum of = 15 from boxes:
+1,2,3
+4,5,6
+7,8,9
+1,5,9
+3,5,7
+
+run loop at every turn that adds x square 
+run loop at
+
+
+
+
