@@ -47,7 +47,7 @@ $('.box').click(function(){
 });*/
 
 $('#reset').click(function(){
-	$('.box').text('').css("background-color", "lightgrey");
+	$('.box').text('').css("background-color", "lightgrey").css("pointer-events","auto");
 	count = 0;
 	$('h2').css("display", "block");
 	$(".startHide").css("display","none");
