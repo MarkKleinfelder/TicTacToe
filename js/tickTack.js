@@ -20,7 +20,7 @@ $('.box').click(function(){
 	$(this).css("pointer-events", "none");
 })
 
-/*-------------vvvv-----constructors--------vvvv-----------------*/
+/*-------------vvvv-----constructors-----------vvvv-----------------*/
 /**/
 /*gameboard = {
 	bgcolor: 
